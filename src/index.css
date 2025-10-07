@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    color: #07f;
+}
+
+.count {
+    color: #07f;
+    text-align: center;
+    background: #f70;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
